@@ -10,6 +10,6 @@ namespace Api_Demo_Project.DAL.Context
             optionsBuilder.UseSqlServer("server=DESKTOP-O6Q5UAT;database=ApiDb; User Id=sa;Password=1234;");
         }
         public DbSet<Category> Categories { get; set; }
-
+        public DbSet<Product> Products { get; set; }
     }
 }
